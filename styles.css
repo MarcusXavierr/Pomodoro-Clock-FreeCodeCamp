@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.box{
+	height: 100vh;
+	width: 100%;
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pomodoro-controls {
+	top: 0;
+	z-index: 9999;
+}
+
+.controls {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.appTitle {
+	font-family: 'Pacifico', cursive;
+	color: #fff;
+	top: 0;
+	font-size: 500%;
+	margin: 0 auto;
+}
+
+.break {
+	color: #fff;
+	display: block;
+}
+
+.break-timer {
+	display: flex;
+	justify-content: row;
+}
+
+.break-number {
+	margin: auto 20px;
+}
+
+.break-minus:hover, .break-plus:hover {
+	cursor: pointer;
+}
+
+.session {
+	color: #fff;
+	display: block;
+}
+
+.session-timer {
+	display: flex;
+	justify-content: row;
+}
+
+.session-number {
+	margin: auto 20px;
+}
+
+.session-minus:hover, .session-plus:hover {
+	cursor: pointer;
+}
+
+.cronometer {
+	position: relative;
+	top: 0;
+	height: 300px;
+	width: 300px;
+}
+
+.front {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	border-radius: 50%;
+	border: 50px solid #333333;
+	z-index: 2000;
+}
+
+.back {
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.back-back {
+	height: 200px;
+	width: 200px;
+	background-color: #8EBC05;
+	margin-bottom: 50px;
+}
+
+.clock {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 1000;
+}
+
+.cover {
+	height: 210px;
+	width: 210px;
+	left: 45px;
+	top: 45px;
+	position: absolute;
+	border: 2px solid #8EBC05;
+	border-radius: 50%;
+
+	z-index: 2000;
+}
+
+.pointer {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.time {
+	color: #fff;
+	font-size: 50px;
+}
+
+.legend {
+	color: #fff;
+	font-size: 50px;
+}
